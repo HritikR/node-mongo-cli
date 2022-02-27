@@ -1,8 +1,12 @@
 # node-mongo CLI
 
-![npm version](https://badge.fury.io/js/%40code-collabo%2Fnode-mongo-cli.svg) ![NPM Downloads](https://img.shields.io/npm/dy/@code-collabo/node-mongo-cli?color=blue) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/node-mongo-cli?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/node-mongo-cli?color=goldenrod)
+[![npm version](https://badge.fury.io/js/%40code-collabo%2Fnode-mongo-cli.svg)](https://www.npmjs.com/package/@code-collabo/node-mongo-cli) [![Npm package total downloads](https://badgen.net/npm/dt/@code-collabo/node-mongo-cli?color=blue)](https://npmjs.com/package/@code-collabo/node-mongo-cli) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://code-collabo.gitbook.io/node-mongo/contribution-guide/development-mode) [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://github.com/code-collabo/node-mongo-cli/blob/develop/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/code-collabo/node-mongo-cli?color=red)](https://github.com/code-collabo/node-mongo-cli/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/node-mongo-cli?color=goldenrod)](https://github.com/code-collabo/node-mongo-cli/pulls)
+
+<!-- [![NPM Downloads](https://img.shields.io/npm/dy/@code-collabo/node-mongo-cli?color=blue)](https://www.npmjs.com/package/@code-collabo/node-mongo-cli) -->
 
 **Supported node versions:** node v12.x to v16.x
+
+**Operating Systems:** Mac OS and Windows OS
 
 The **node-mongo** project has 3 main projects:
 
@@ -35,6 +39,11 @@ After installing globally, use the node-mongo command.
 node-mongo
 ```
 
+### Show help
+````
+node-mongo --help
+````
+
 ### Usage
 
 ```text
@@ -53,6 +62,7 @@ node-mongo test-folder cjs
 
 ```text
 -h, --help          Show help
+-v, --version       Show version number
 -i, --install       Install dependencies
 -g, --git           Initialize git repo
 -s, --skip-install  Skip installing dependencies

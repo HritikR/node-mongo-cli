@@ -3,9 +3,13 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![npm version](https://badge.fury.io/js/%40code-collabo%2Fnode-mongo-cli.svg) ![NPM Downloads](https://img.shields.io/npm/dy/@code-collabo/node-mongo-cli?color=blue) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg) ![GitHub issues](https://img.shields.io/github/issues/code-collabo/node-mongo-cli?color=red) ![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/node-mongo-cli?color=goldenrod)
+[![npm version](https://badge.fury.io/js/%40code-collabo%2Fnode-mongo-cli.svg)](https://www.npmjs.com/package/@code-collabo/node-mongo-cli) [![Npm package total downloads](https://badgen.net/npm/dt/@code-collabo/node-mongo-cli?color=blue)](https://npmjs.com/package/@code-collabo/node-mongo-cli) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://code-collabo.gitbook.io/node-mongo/contribution-guide/development-mode) [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://github.com/code-collabo/node-mongo-cli/blob/develop/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/code-collabo/node-mongo-cli?color=red)](https://github.com/code-collabo/node-mongo-cli/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/code-collabo/node-mongo-cli?color=goldenrod)](https://github.com/code-collabo/node-mongo-cli/pulls)
+
+<!-- [![NPM Downloads](https://img.shields.io/npm/dy/@code-collabo/node-mongo-cli?color=blue)](https://www.npmjs.com/package/@code-collabo/node-mongo-cli) -->
 
 **Supported node versions:** node v12.x to v16.x
+
+**Operating Systems:** Mac OS and Windows OS
 
 The [node-mongo-cli](https://code-collabo.gitbook.io/node-mongo/) is a command-line interface made with nodejs. It bootstraps any of these 3 boilerplate templates for your nodejs and/or mongoDB development:
 - [ES module template](https://github.com/code-collabo/node-mongo-esm-kit)
@@ -22,6 +26,7 @@ The [node-mongo-cli](https://code-collabo.gitbook.io/node-mongo/) is a command-l
 - Folders are automatically created based on user entry in prompt or command-line.
 - Default folder name is provided and incremented if name already exists.
 ### Templates
+- Development environment already set up with @babel (for esm template only) and eslint.
 - [Two mongoDB connection options](https://code-collabo.gitbook.io/node-mongo/boilerplate-templates#mongodb-connection-options) to pick from in the templates: your installed mongoDB and mongoDBatlas.
 - [Demo CRUD app](https://github.com/code-collabo/node-mongo-demo-app) you can go and download to test that your connection is setup and show example usage of the templates.
 
@@ -35,6 +40,11 @@ npm install -g @code-collabo/node-mongo-cli
 After installing globally, use the node-mongo command.
 ````
 node-mongo
+````
+
+### Show help
+````
+node-mongo --help
 ````
 
 ### Usage
@@ -51,6 +61,7 @@ node-mongo test-folder cjs
 ### Flags
 ````
 -h, --help          Show help
+-v, --version       Show version number
 -i, --install       Install dependencies
 -g, --git           Initialize git repo
 -s, --skip-install  Skip installing dependencies
@@ -77,7 +88,7 @@ specified or when folder name already exists.
 See the links for the official [node-mongo documentation](https://code-collabo.gitbook.io/node-mongo/) and [Code Collabo documentation](https://code-collabo.gitbook.io/doc/).
 
 ## Want to contribute?
-Love the project and wish to contribute? See contribution guide in the [node-mongo gitbook documentation](https://code-collabo.gitbook.io/node-mongo/) for how to start contributing. You can also reach out to [@Ifycode](https://github.com/Ifycode) in case you need any assistance.
+Love the project and wish to contribute? See contribution guide in the [node-mongo documentation](https://code-collabo.gitbook.io/node-mongo/) for how to start contributing. You can also reach out to [@Ifycode](https://github.com/Ifycode) in case you need any assistance.
 
 ## Appreciation
 Appreciation goes to [@dkundel](https://github.com/dkundel), [@academind](https://github.com/academind), [@CodAffection](https://github.com/CodAffection), [@coryhouse](https://github.com/coryhouse) whose awesome youTube videos, articles and/or courses helped a lot while building the node-mongo project - cli, templates and/or demo app. Also to [@IsraelObiagba](https://github.com/IsraelObiagba) and [@jiobiagba](https://github.com/jiobiagba) for their help.
